@@ -32,6 +32,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
+import Font from '@ckeditor/ckeditor5-font';
 
 export default class InlineEditor extends InlineEditorBase {}
 
@@ -60,7 +61,8 @@ InlineEditor.builtinPlugins = [
 	TableToolbar,
 	Underline,
 	Subscript,
-	Superscript
+	Superscript,
+	Font
 ];
 
 // Editor configuration.
